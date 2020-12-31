@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import PokemonList from "./Components/PokemonList";
+import App from "./App";
 // import FilterSearchBar from "./Components/FilterSearchBar";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <FilterSearchBar /> */}
-    <PokemonList />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
