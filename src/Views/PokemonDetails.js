@@ -49,7 +49,7 @@ export default function PokemonDetails() {
           <div className="font-bold text-center text-lg">Stats</div>
           {pokemonDetails.stats.map((stat, index) => (
             <div className="p-0.5 m-2" key={index}>
-              <span className="capitalize">{stat.stat.name}</span>
+              <span className="capitalize ">{stat.stat.name}</span>
               <StatsProgressBar
                 completed={stat.base_stat > 100 ? 100 : stat.base_stat}
                 value={stat.base_stat}
