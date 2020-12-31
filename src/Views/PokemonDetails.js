@@ -34,7 +34,7 @@ export default function PokemonDetails() {
           src={pokemonDetails.sprites.front_default}
           alt={pokemonDetails.name}
         />
-        <div className="font-bold capitalize text-center text-2xl py-1">
+        <div className="font-bold capitalize text-center text-2xl mb-4">
           {pokemonDetails.name}
         </div>
         <div className="w-1/3 mx-auto flex justify-between mb-4">
