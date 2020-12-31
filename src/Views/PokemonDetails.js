@@ -21,7 +21,7 @@ export default function PokemonDetails() {
     let color = PokemonColorUtil(pokemonDetails.types[0].type.name);
 
     content = (
-      <div className="text-gray-700 rounded overflow-hidden shadow-md px-4 py-4 m-2 hover:shadow-xl bg-white sm:w-3/5 mx-auto">
+      <div className="text-gray-700 rounded overflow-hidden shadow-md px-4 py-4 m-2 hover:shadow-xl bg-white lg:w-3/5 lg:mx-auto">
         <div className="w-full text-right font-light">
           <span
             className={`${color} rounded-full text-white p-2 text-right font-light`}
